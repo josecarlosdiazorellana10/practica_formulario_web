@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+            <a href="#">
+                <img src="logo.png" alt="User Icon" class="user-icon" id="uno">
+            </a>
+                
+            </div>
+            <div class="header-right">
+                <p>Número Formato: <input type="text" value="0"></p>
+                <p>Código: <input type="text" value="0"></p>
+            </div>
+            <div class="header-center">
+                <p>Este formato de solicitud es GRATUITO, PROHIBIDO su venta.</p>
+                <h3>SOLICITUD DE INSCRIPCIÓN DE COMERCIANTE INDIVIDUAL Y EMPRESA</h3>
+            </div>
+        </header>
+        <form>
+            <div class="form-group">
+                <label>Primer Nombre</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Segundo Nombre</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Otro Nombre</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Primer Apellido</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Segundo Apellido</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Apellido Casada</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Edad</label>
+                <input type="number" min="0">
+                <label>Años</label>
+                <select>
+                    <option>SELECCIONE UNA OPCIÓN</option>
+           
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Nacionalidad</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Profesión u Oficio</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Con Residencia en</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Domicilio en el Departamento de</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Documento de Identificación</label>
+                <div>
+                    <input type="radio" name="documento" value="pasaporte"> PASAPORTE
+                    <input type="radio" name="documento" value="dpi"> DOCUMENTO PERSONAL DE IDENTIFICACIÓN (DPI)
+                </div>
+            </div>
+            <div class="form-group">
+                <label>NIT</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Teléfono y/o Celular</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Correo Electrónico</label>
+                <input type="email" placeholder="EJEMPLO@GMAIL.COM">
+            </div>
+            <div class="form-group full-width">
+                <label>Inscripción</label>
+                <div>
+                    <input type="radio" name="inscripcion" value="individual"> Que se me inscriba como comerciante individual
+                    <input type="radio" name="inscripcion" value="empresa"> Que se inscriba la siguiente empresa de mi propiedad o Propiedad de:
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Nombre Comercial</label>
+                <input type="text">
+            </div>
+            <div class="form-group full-width">
+                <label>Dirección Completa</label>
+                <input type="text">
+            </div>
+            <div class="form-group full-width">
+                <label>Objeto</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Fecha de inicio de actividades</label>
+                <input type="text" placeholder="dd/mm/aaaa">
+            </div>
+            <div class="form-group">
+                <label>Capital</label>
+                <input type="text" placeholder="Q.">
+            </div>
+            <div class="form-group full-width">
+                <label>Administrador, Gerente o Factor</label>
+                <input type="text">
+            </div>
+            <div class="form-group">
+                <label>Si es casado, indique régimen matrimonial</label>
+                <input type="text">
+            </div>
+            <div class="form-group full-width">
+                <label>Si el Propietario está inscrito como comerciante o Sociedad, indique No.</label>
+                <input type="text">
+                <label>Folio</label>
+                <input type="text" value="0">
+            </div>
+            <div class="form-group">
+                <label>Número de Empleados a contratar</label>
+                <input type="number" min="0" value="0">
+            </div>
+            <div class="form-group">
+                <label>Fecha</label>
+                <input type="text" value="20/07/2024 16:06:10">
+            </div>
+            <div class="form-group">
+                <label>Firma</label>
+                <input type="text">
+            </div>
+            <div class="form-group full-width">
+                <label>Ingrese su correo para enviarle una copia de su solicitud a su correo</label>
+                <input type="email">
+            </div>
+            <div class="form-group full-width">
+                <button type="button">Exportar a PDF</button>
+            </div>
+        </form>
+        <footer>
+            <p>© 2024 - Registro Mercantil General de la República</p>
+        </footer>
+    </div>
+</body>
+</html>
+
